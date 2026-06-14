@@ -1,0 +1,170 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPUGnewsButtons\n"
+"POT-Creation-Date: 2026-06-14 18:30+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_n:1,2;esc_attr__;esc_html__;esc_attr_e;esc_html_e\n"
+"X-Generator: Poedit 3.9\n"
+"X-Poedit-SearchPath-0: ../.\n"
+
+#: .././inc/WPUBaseSettings/WPUBaseSettings.php:164
+#: .././inc/WPUBaseSettings/WPUBaseSettings.php:752
+#: .././inc/WPUBaseSettings/WPUBaseSettings.php:759
+msgid "Settings"
+msgstr "Réglages"
+
+#: .././inc/WPUBaseSettings/WPUBaseSettings.php:194
+#: .././inc/WPUBaseToolbox/WPUBaseToolbox.php:254
+msgid "No"
+msgstr "Non"
+
+#: .././inc/WPUBaseSettings/WPUBaseSettings.php:194
+#: .././inc/WPUBaseToolbox/WPUBaseToolbox.php:255
+msgid "Yes"
+msgstr "Oui"
+
+#: .././inc/WPUBaseSettings/WPUBaseSettings.php:243
+msgid "Check all"
+msgstr "Tout cocher"
+
+#: .././inc/WPUBaseSettings/WPUBaseSettings.php:244
+msgid "Uncheck all"
+msgstr "Tout décocher"
+
+#: .././inc/WPUBaseSettings/WPUBaseSettings.php:363
+msgid "Settings saved."
+msgstr "Paramètres sauvegardés."
+
+#: .././inc/WPUBaseSettings/WPUBaseSettings.php:432
+msgid "Upload New Media"
+msgstr "Envoi d'un nouveau média"
+
+#: .././inc/WPUBaseSettings/WPUBaseSettings.php:490
+#, php-format
+msgid "This value is set by the constant %s and cannot be edited here."
+msgstr ""
+"Cette valeur est définie par la constante %s et ne peut pas être modifiée "
+"ici."
+
+#: .././inc/WPUBaseSettings/WPUBaseSettings.php:639
+msgid "Language"
+msgstr "Langue"
+
+#: .././inc/WPUBaseSettings/WPUBaseSettings.php:774
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: .././inc/WPUBaseToolbox/WPUBaseToolbox.php:179
+msgid "Submit"
+msgstr "Envoyer"
+
+#: .././inc/WPUBaseToolbox/WPUBaseToolbox.php:205
+msgid "Previous"
+msgstr "Précédent"
+
+#: .././inc/WPUBaseToolbox/WPUBaseToolbox.php:206
+msgid "Next"
+msgstr "Suivant"
+
+#: .././inc/WPUBaseToolbox/WPUBaseToolbox.php:398
+#, php-format
+msgid "The field “%s” is required"
+msgstr "Le champ « %s » est obligatoire"
+
+#: .././inc/WPUBaseToolbox/WPUBaseToolbox.php:403
+#, php-format
+msgid "The field “%s” should be an email"
+msgstr "Le champ « %s » doit contenir une adresse e-mail"
+
+#: .././inc/WPUBaseToolbox/WPUBaseToolbox.php:739
+#, php-format
+msgid ""
+"The plugin <b>%s</b> depends on the following plugins. Please install and "
+"activate them:"
+msgstr ""
+"Le plugin <b>%s</b> nécessite les plugins suivants. Veuillez les installer "
+"et les activer :"
+
+#: .././inc/WPUBaseToolbox/WPUBaseToolbox.php:745
+#, php-format
+msgid ""
+"The plugin <b>%s</b> depends on the <b>%s</b> plugin. Please install and "
+"activate it."
+msgstr ""
+"Le plugin <b>%s</b> dépend du plugin <b>%s</b>. Merci de l’installer et de "
+"l’activer."
+
+#: .././inc/WPUBaseToolbox/WPUBaseToolbox.php:758
+#, php-format
+msgid ""
+"The plugin <b>%s</b> needs specific plugins versions. Please update them:"
+msgstr ""
+"Le plugin <b>%s</b> nécessite des versions spécifiques de certains plugins. "
+"Veuillez les mettre à jour :"
+
+#: .././inc/WPUBaseToolbox/WPUBaseToolbox.php:765
+#, php-format
+msgid ""
+"The plugin <b>%s</b> needs a specific <b>%s</b> plugin version. Please "
+"update it to at least version %s (current version: %s)."
+msgstr ""
+"Le plugin <b>%s</b> nécessite une version spécifique <b>%s</b> du plugin. "
+"Veuillez le mettre à jour au moins jusqu'à la version %s (version actuelle : "
+"%s)."
+
+#: .././inc/WPUBaseToolbox/WPUBaseToolbox.php:811
+msgid "No data available."
+msgstr "Aucune donnée disponible."
+
+#: .././wpu_gnews_buttons.php:58
+msgid ""
+"Add buttons to your website to add your source to Google News and follow you "
+"on Google News."
+msgstr ""
+"Ajoutez des boutons à votre site web pour permettre aux utilisateurs "
+"d'ajouter votre source à Google Actualités et de vous suivre sur Google "
+"Actualités."
+
+#: .././wpu_gnews_buttons.php:82 .././wpu_gnews_buttons.php:180
+#: .././wpu_gnews_buttons.php:181
+msgid "Add source"
+msgstr "Ajouter une source"
+
+#: .././wpu_gnews_buttons.php:85
+msgid "Follow us"
+msgstr "Suivez-nous"
+
+#: .././wpu_gnews_buttons.php:93 .././wpu_gnews_buttons.php:105
+msgid "Show Button"
+msgstr "Afficher le bouton"
+
+#: .././wpu_gnews_buttons.php:99
+msgid "Source string"
+msgstr "Chaîne source"
+
+#: .././wpu_gnews_buttons.php:100
+#, php-format
+msgid "Defaults to %s"
+msgstr "Valeur par défaut : %s"
+
+#: .././wpu_gnews_buttons.php:111
+msgid "Google News URL"
+msgstr "URL sur Google Actualités"
+
+#: .././wpu_gnews_buttons.php:202
+msgid "Follow us on Google News"
+msgstr "Suivez-nous sur Google Actualités"
+
+#: .././wpu_gnews_buttons.php:203
+#, php-format
+msgid "Follow us on %s"
+msgstr "Suivez-nous sur %s"
