@@ -1,5 +1,7 @@
 # WPUGnewsButtons
 
+[![PHP workflow](https://Darklg@github.com/WordPressUtilities/wpu_gnews_buttons/actions/workflows/php.yml/badge.svg 'PHP workflow')](https://Darklg@github.com/WordPressUtilities/wpu_gnews_buttons/actions)
+
 Display Google News call-to-action buttons on your WordPress site: an **Add source** button (lets readers prioritize your domain in Google News) and a **Follow us on Google News** button.
 
 ## Features

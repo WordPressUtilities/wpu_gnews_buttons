@@ -4,7 +4,7 @@ Plugin Name: WPUGnewsButtons
 Plugin URI: https://github.com/WordPressUtilities/wpu_gnews_buttons
 Update URI: https://github.com/WordPressUtilities/wpu_gnews_buttons
 Description: Add buttons to your website to add your source to Google News and follow you on Google News.
-Version: 0.1.0
+Version: 0.1.1
 Author: Darklg
 Author URI: https://github.com/Darklg
 Text Domain: wpu_gnews_buttons
@@ -21,7 +21,7 @@ if (!defined('ABSPATH')) {
 }
 
 class WPUGnewsButtons {
-    private $plugin_version = '0.1.0';
+    private $plugin_version = '0.1.1';
     private $plugin_settings = array(
         'id' => 'wpu_gnews_buttons',
         'name' => 'WPUGnewsButtons'
@@ -39,6 +39,7 @@ class WPUGnewsButtons {
     public function __construct() {
         add_action('init', array(&$this, 'load_translation'));
         add_action('init', array(&$this, 'load_toolbox'));
+        add_action('init', array(&$this, 'load_updater'));
         add_action('init', array(&$this, 'load_settings'));
 
         # Front Assets
@@ -64,6 +65,15 @@ class WPUGnewsButtons {
             'need_form_js' => false,
             'need_table_js' => false
         ));
+    }
+
+    public function load_updater() {
+        require_once __DIR__ . '/inc/WPUBaseUpdate/WPUBaseUpdate.php';
+        new \wpu_gnews_buttons\WPUBaseUpdate(
+            'WordPressUtilities',
+            'wpu_gnews_buttons',
+            $this->plugin_version
+        );
     }
 
     public function load_settings() {
