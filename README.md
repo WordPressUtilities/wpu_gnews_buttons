@@ -1,6 +1,6 @@
 # WPUGnewsButtons
 
-[![PHP workflow](https://Darklg@github.com/WordPressUtilities/wpu_gnews_buttons/actions/workflows/php.yml/badge.svg 'PHP workflow')](https://Darklg@github.com/WordPressUtilities/wpu_gnews_buttons/actions)
+[![PHP workflow](https://github.com/WordPressUtilities/wpu_gnews_buttons/actions/workflows/php.yml/badge.svg 'PHP workflow')](https://github.com/WordPressUtilities/wpu_gnews_buttons/actions)
 
 Display Google News call-to-action buttons on your WordPress site: an **Add source** button (lets readers prioritize your domain in Google News) and a **Follow us on Google News** button.
 
@@ -24,6 +24,14 @@ Place the shortcode where you want the buttons to appear:
 
 ```
 [wpu_gnews_buttons]
+```
+
+Or call it in your theme:
+
+```php
+if (shortcode_exists('wpu_gnews_buttons')) {
+    echo do_shortcode('[wpu_gnews_buttons]');
+}
 ```
 
 Only the buttons enabled in the settings (and with valid values) are rendered. If none are enabled, nothing is output.
